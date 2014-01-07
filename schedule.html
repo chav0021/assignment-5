@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- These two tags are for older devices -->
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="240">
+<!-- This one is for newer devices. Doesn't allow user to zoom in
+	Supports a) any width b) sets default scale to 1 -->
+<meta name="viewport" content="width=device-width,intial-scale=1">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/general.css" rel="stylesheet">
+<title>Responsive Layout</title>
+<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+	
+	<!--Main Menu -->
+	
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul class="nav">
+                <li class="hom"><a href="index.html" class="home"></a></li>
+                <li class="sched"><a href="#" class="schedule"></a></li>
+                <li class="pric"><a href="prices.html" class="prices"></a></li>
+                <li class="cont"><a href="#contact" class="contact"></a></li>
+            </ul>
+        </nav>
+    </header>
+		
+	<!-- Schedule Nav & Content -->
+    
+    <div id="schedule-section">
+        <div id="cbp-contentslider" class="cbp-contentslider">
+            <nav>
+                <a href="#fake">M</a>
+                <a href="#fake">T</a>
+                <a href="#fake">W</a>
+                <a href="#fake">T</a>
+                <a href="#fake">F</a>
+                <a href="#fake">S</a>
+                <a href="#fake">S</a>
+            </nav>
+            <ul>
+                <li id="slide1">
+                    <h3>Monday</h3>
+                    <table>
+                        <tr>
+                            <td>6:30A-8:00A</td>
+                            <td><h5>Lane Swim</h5><p>25m Pool, Swirl Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>8:30A-1:00P</td>
+                            <td><h5>Lane Swim</h5><p>50m Pool, Shallow</p></td>
+                        </tr>
+                        <tr>
+                            <td>11:30A-1:00P</td>
+                            <td><h5>Public Swim</h5><p>All Pools</p></td>
+                        </tr>
+                        <tr>
+                            <td>5:00P-6:00P</td>
+                            <td><h5>Lane Swim</h5><p>25m Pool, Swirl Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>8:15P-9:15P</td>
+                            <td><h5>Lane Swim</h5><p>50m Pool, Shallow</p></td>
+                        </tr>
+                    </table>
+                </li>
+                <li id="slide2">
+                    <h3>Tuesday</h3>
+                    <table>
+                        <tr>
+                            <td>8:30A-1:00P</td>
+                            <td><h5>Lane</h5> <p>50m Lanes</p></td>
+                        </tr>
+                        <tr>
+                            <td>10:00A-11:00A</td>
+                            <td><h5>Public</h5> <p>25m Pool, Swirl Pool, Kiddie Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>11:30A-1:00P</td>
+                            <td><h5>Public</h5> <p>All Pools</p></td>
+                        </tr>
+                        <tr>
+                            <td>8:15P-9:15P</td>
+                            <td><h5>Lane</h5> <p>50m Pool, Shallow</p></td>
+                        </tr>
+                    </table>
+                </li>
+                <li id="slide3">
+                    <h3>Wednesday</h3>
+                    <table>
+                        <tr>
+                            <td>6:30A-8:00A</td>
+                            <td><h5>Lane Swim</h5><p>25m Pool, Swirl Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>8:30A-1:00P</td>
+                            <td><h5>Lane Swim</h5><p>50m Pool, Shallow</p></td>
+                        </tr>
+                        <tr>
+                            <td>11:30A-1:00P</td>
+                            <td><h5>Public Swim</h5><p>All Pools</p></td>
+                        </tr>
+                        <tr>
+                            <td>5:00P-6:00P</td>
+                            <td><h5>Lane Swim</h5><p>25m Pool, Swirl Pool, Kiddie Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>6:00P-7:30P</td>
+                            <td><h5>Family Swim</h5><p>25m Pool, Swirl Pool, Kiddie Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>8:15P-9:15P</td>
+                            <td><h5>Lane</h5> <p>50m Pool, Shallow</p></td>
+                        </tr>
+                    </table>
+                </li>
+                <li id="slide4">
+                    <h3>Thursday</h3>
+                    <table>
+                        <tr>
+                            <td>8:30A-1:00P</td>
+                            <td><h5>Lane</h5> <p>50m Lanes</p></td>
+                        </tr>
+                        <tr>
+                            <td>10:00A-11:00A</td>
+                            <td><h5>Public</h5> <p>25m Pool, Swirl Pool, Kiddie Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>11:30A-1:00P</td>
+                            <td><h5>Public</h5> <p>All Pools</p></td>
+                        </tr>
+                        <tr>
+                            <td>8:15P-9:15P</td>
+                            <td><h5>Lane</h5> <p>50m Pool, Shallow</p></td>
+                        </tr>
+                    </table>
+                </li>
+                <li id="slide5">
+                    <h3>Friday</h3>
+                    <table>
+                        <tr>
+                            <td>6:30A-8:00A</td>
+                            <td><h5>Lane Swim</h5><p>25m Pool, Swirl Pool</p></td>
+                        <tr>
+                            <td>8:30A-1:00P</td>
+                            <td><h5>Lane Swim</h5><p>50m Pool, Shallow</p></td>
+                        </tr>
+                        <tr>
+                            <td>11:30A-1:00P</td>
+                            <td><h5>Public</h5> <p>All Pools</p></td>
+                        </tr>
+                        <tr>
+                            <td>5:00P-6:00P</td>
+                            <td><h5>Lane Swim</h5><p>25m Pool, Swirl Pool, Kiddie Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>8:15P-9:15P</td>
+                            <td><h5>Lane</h5> <p>50m Pool, Shallow</p></td>
+                        </tr>
+                    </table>
+                </li>
+                <li id="slide6">
+                    <h3>Saturday</h3>
+                    <table>
+                        <tr>
+                            <td>10:00A-11:00A</td>
+                            <td><h5>Preschool</h5><p>25m Pool* Kiddie Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>1:00P-3:00P</td>
+                            <td><h5>Public</h5><p>All Pools</p></td>
+                        </tr>
+                        <tr>
+                            <td>6:30P-8:00P</td>
+                            <td><h5>Public</h5><p>All Pools</p></td>
+                        </tr>
+                    </table>
+                </li>
+                <li id="slide7">
+                    <h3>Sunday</h3>
+                    <table>
+                        <tr>
+                            <td>10:00A-11:00A</td>
+                            <td><h5>Preschool</h5><p>25m Pool* Kiddie Pool</p></td>
+                        </tr>
+                        <tr>
+                            <td>1:00P-3:00P</td>
+                            <td><h5>Public</h5><p>All Pools</p></td>
+                        </tr>
+                        <tr>
+                            <td>6:30P-8:00P</td>
+                            <td><h5>Public</h5><p>25m Pool, Swirl Pool, Kiddie Pool</p></td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </div> <!-- content slider close -->
+    </div> <!-- table section close -->
+	
+	<div class="newsletter">
+			<h4>Get our newsletter!</h4>
+			<form>
+				<input placeholder="Your email here">
+			</form>
+		<div class="submit"><a href="#">Submit</a></div>
+	</div>
+
+	
+	<!-- Footer -->
+	
+    <footer id="contact">
+		<div class="map-sec">
+			<h4> this is where to find us! </h4>
+				<img src="images/map.png" alt="location map" class="map">
+		</div>
+		<div class="data">
+			<h4> and if you want to talk, </h4>
+           <p> You can reach us at</p>
+			<p> 613-793-7662 </p>
+			<div class="social">
+				<ul>
+					<li><a href="#"> <img src="images/facebook.svg" alt="facebook link"></a></li>
+					<li><a href="#"> <img src="images/twitter.svg" alt="twitter link"></a></li>
+					<li><a href="#"> <img src="images/instagram.svg" alt="instagram link"></a></li>
+				</ul>
+			</div>
+            <p> Copyright © Freestyle Swimming 2013 </p>
+		</div>
+    </footer>
+		
+    <!-- Script -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/jquery.cbpContentSlider.min.js"></script>
+        <script>
+            $(function() {
+                /*
+                - how to call the plugin:
+                $( selector ).cbpContentSlider( [options] );
+                - options:
+                {
+                    // default transition speed (ms)
+                    speed : 500,
+                    // default transition easing
+                    easing : 'ease-in-out',
+                    // current item's index
+                    current : 0
+                }
+                - destroy:
+                $( selector ).cbpContentSlider( 'destroy' );
+                */
+    
+                $( '#cbp-contentslider' ).cbpContentSlider();
+            });
+        </script>
+
+</body>
+</html>

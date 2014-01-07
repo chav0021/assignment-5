@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- These two tags are for older devices -->
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="240">
+<!-- This one is for newer devices. Doesn't allow user to zoom in
+	Supports a) any width b) sets default scale to 1 -->
+<meta name="viewport" content="width=device-width,intial-scale=1">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/general.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Montserrat:700' rel='stylesheet' type='text/css'>
+<title>Responsive Layout</title>
+</head>
+
+<body>
+
+	<!-- Main Menu -->
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul class="nav">
+                <li class="hom"><a class="home" href="#"></a></li>
+                <li class="sched"><a href="schedule.html" class="schedule"></a></li>
+                <li class="pric"><a href="prices.html" class="prices"></a></li>
+                <li class="cont"><a href="#contact" class="contact"></a></li>
+            </ul>
+        </nav>
+		<div class="deco-icons">
+			<img src="" class="show-1">
+			<img src="" class="show-2">
+			<img src="" class="show-3">
+			<img src="" class="show-4">
+			<img src="" class="show-5">
+			<img src="" class="show-6">
+			<img src="" class="show-7">
+		</div>
+    </header>
+    
+    <!-- Content -->
+    <div class="welcome"></div>
+	
+	<main>
+	
+		<p>Located in the heart of Nepean, Freestyles is the pool for everybody. Whether you're looking to exercise, relax, or just spend some time with the family, Freestyles is guaranteed to be able to fit your schedule. Check out our options! 	
+		</p>
+		
+		<div class="buttons">
+		
+			<div class="wrap">
+				<div class="parent 1 left-col">
+					<a href="#fake" class="btn"><h4 class="tap1"></h4></a>
+					<div class="button-content btn-content" data-state="collapsed">
+						<ul>
+							<a href="#"><li>New Jacuzzi is open</li></a>
+							<a href="#"><li>Take a peek at our updated Schedule</li></a>
+							<a href="#"><li>Get to know our new instructor!</li></a>
+						</ul>
+					</div>
+				</div>
+			
+				<div class="parent 2 right-col">
+					<a href="#fake" class="btn"><h4 class="tap2"></h4></a>
+					<div class="button-content btn-content" data-state="collapsed">
+						<ul>
+							<a href="#"><li>New Jacuzzi is open</li></a>
+							<a href="#"><li>Take a peek at our updated Schedule</li></a>
+							<a href="#"><li>Get to know our new instructor!</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+			<article href="prices.html" class="feature left">
+				<h4>Want to know about prices?</h4>
+			</article>
+			
+			<article href="schedule.html" class="feature right">
+				<h4>Want to check out our schedule?</h4>
+			</article>
+			
+		</div>
+		
+	</main>	
+	
+	<div class="newsletter">
+			<h4>Get our newsletter!</h4>
+			<form>
+				<input placeholder="Your email here">
+			</form>
+		<div class="submit"><a href="#">Submit</a></div>
+	</div>
+    
+	<!-- Footer -->
+    
+    <footer id="contact">
+		<div class="map-sec">
+			<h4> this is where to find us! </h4>
+				<img src="images/map.png" alt="location map" class="map">
+		</div>
+		<div class="data">
+			<h4> and if you want to talk, </h4>
+           <p> You can reach us at</p>
+			<p> 613-793-7662 </p>
+			<div class="social">
+				<ul>
+					<li><a href="#"> <img src="images/facebook.svg" alt="facebook link"></a></li>
+					<li><a href="#"> <img src="images/twitter.svg" alt="twitter link"></a></li>
+					<li><a href="#"> <img src="images/instagram.svg" alt="instagram link"></a></li>
+				</ul>
+			</div>
+            <p> Copyright © Freestyle Swimming 2013 </p>
+		</div>
+    </footer>
+	
+	<script src="js/toggle.js"></script>
+	
+</body>
+</html>
